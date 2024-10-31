@@ -1,0 +1,135 @@
+== Changelog ==
+
+= 1.15.0 =
+
+* Added collapsible panels.
+* Minimum height for text fields is 80 pixels now.
+* Cleaned and beautified HTML code.
+
+= 1.14.1 =
+
+* Added new link to plugin line in the WordPress plugins management page.
+* Updated compatibility to WordPress 5.6.
+
+= 1.14.0 =
+
+* Avoid printing the HTML tag when the text before the base URL of the original site is empty.
+
+= 1.13.1 =
+
+* Fixed domain for a string in the widget admin panel.
+
+= 1.13.0 =
+
+* Added options for links relationship.
+
+= 1.12.0 =
+
+* Updated protocols from http to https
+* Added Pinboard as source
+
+= 1.11.0 =
+
+* Display feed errors to Administrator only.
+
+= 1.10.0 =
+
+* Added option to display original site base URL.
+* Added control if user entered 0 as items quantity.
+* Fixed displaying comments under checkboxes.
+
+= 1.9.0 =
+
+* Display real true/false in debug section. Now the debug section displays real true/false if an option is a boolean value, instead of displaying respectively 1 or (empty). Also, if the value is a string with 0 as content, displays the real content 0, not (empty).
+* Now the source can be displayed independently from tags.
+* Corrected the text of widget introduction.
+* Moved CSS into assets directory.
+
+= 1.8.2 =
+
+* Totally revamped cache section in debug.
+* Added an ID when the shortcode is used.
+* Fixed cache time duration.
+* Used PHP `date()` instead of WordPress `date_i18n()`.
+* Required PHP 5.3 for use of anonymous functions.
+
+= 1.8.1 =
+
+* Removed typehint for argument in pinboard_bookmarks_check_items().
+
+= 1.8.0 =
+
+* The default options are in a separate function now to simplify the plugin.
+* Code optimization.
+
+= 1.7.4 =
+
+* Make sure that item timestamp and local offset are an integer.
+
+= 1.7.3 =
+
+* Added widget ID in debug display.
+* Checked all files with Checked all files with WordPress Coding Standard for PHPCS.
+* Fixed filtering the widget title using widget id base.
+
+= 1.7.2 =
+
+* Created some functions in a separate file.
+* Minor bug fix and enhancements.
+
+= 1.7.1 =
+
+* Updated shortcode.
+
+= 1.7.0 =
+
+* Added an option to rearrange the elements of each items.
+* Fixed shuffling of items.
+* Fixed open link in new tabs for source.
+
+= 1.6.0 =
+
+* Removed support for Twitter.
+* Removed option to get bookmarks from tags without setting a username.
+* Added introductory text.
+* Fixed option name for uninstall.php.
+* Minor fixes.
+
+= 1.5.0 =
+
+* Display the source of the bookmark, even if a source has not been defined in the widget admin.
+* Minor fixes.
+
+= 1.4.0 =
+
+* Display the source of the bookmarks, if activated.
+* Fix time display: now the plugin displays correctly the seconds.
+* Fix URL when using more than 1 tag.
+* Display a different URL to the archive in different cases.
+* Improve control for username.
+* Changed some class names.
+* Minor fixes.
+
+= 1.3 =
+
+* Updated shortcode options.
+
+= 1.2 =
+
+* Added "no-follow" option to all external links.
+* Added the number of retrieved items in debug section.
+* Added option to select the type of list (bullet or numeric list).
+* Added option to get bookmarks labeled with the source, like `from:pocket`.
+* Added option to display debugging informations to admins only.
+* Added option to display the time of the bookmarks.
+* Changed capabilities for viewing debug informations.
+* Hardening security.
+
+= 1.1 =
+
+* Hardening security.
+* Various small improvements.
+
+= 1.0 =
+
+* First release of the plugin.
